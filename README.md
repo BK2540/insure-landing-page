@@ -3,4 +3,4 @@
 Welcome everyone, 
 please visit my complete insure landing page at
 
-https://github.com/BK2540/insure-landing-page
+https://bk2540.github.io/insure-landing-page/

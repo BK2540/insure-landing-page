@@ -1,0 +1,69 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+/* other css file */
+@import url('./sections/header.css');
+@import url('./sections/how.css');
+@import url('./sections/blog.css');
+@import url('./sections/account.css');
+@import url('./sections/plan.css');
+@import url('./sections/footer.css');
+
+/*CSS variable for reuse*/
+:root{
+  --heading-font: 'DM Serif Display', serif;
+  --body-font: 'Karla', sans-serif;
+
+  --primary-color:  hsl(256, 26%, 20%);
+  --secondary-color: hsl(216, 30%, 68%);
+
+  --darker-violet: hsl(270, 9%, 17%);
+  --graylish-violet: hsl(273, 4%, 51%);
+  --light-grey: hsl(0, 0%, 98%);
+
+  --white-color: #fff;
+  --black-color: #232323;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+}
+
+.custom__button:hover{
+  opacity: 0.6;
+}
+
+

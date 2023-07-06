@@ -1,0 +1,59 @@
+.header__nav{
+    margin: 32px 64px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+.header__menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+    font-family: var(--body-font);
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header__menu>li:hover{
+    font-weight: 600;
+    scale: 1;
+}
+
+.header__menu li{
+    list-style: none;
+}
+
+.custom__button{
+    padding: 14px;
+
+    font-family: var(--body-font);
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+
+    background: transparent;
+
+    cursor: pointer;
+
+}
+
+.custom__button:active{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    opacity: 100;
+}
+
+
+
+
